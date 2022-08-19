@@ -4,7 +4,7 @@
 }
 
 #two {
-    color: blue;
+    color: #0000ff;
     font-size: 36px;
 }
 
@@ -13,7 +13,7 @@
 }
 
 #four {
-    background-color: rgb(76, 160, 76);
+    background-color: hsl(120, 100%, 75%);
     font-size: 24px;
     font-weight: bold;
 }
