@@ -8,6 +8,10 @@
     font-size: 36px;
 }
 
+.odd.three {
+    font-size: 24px;
+}
+
 #four {
     background-color: rgb(76, 160, 76);
     font-size: 24px;
