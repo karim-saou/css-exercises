@@ -10,6 +10,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  flex: auto;
+  
 }
 
 /* do not edit this footer */
@@ -23,4 +25,30 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.second-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  
+}
+
+.card {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+
+.card .text {
+  text-align: center;
 }
